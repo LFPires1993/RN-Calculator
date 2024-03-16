@@ -14,6 +14,16 @@ export default StyleSheet.create({
         borderWidth: 1,
         textAlign: 'center',
     },
+    operationButton: {
+        color: '#fff',
+        backgroundColor: '@fa8321'
+    },
+    doubleButton: {
+        width: (Dimensions.get("window").width / 4) * 2
+    },
+    tripleButton: {
+        width: (Dimensions.get("window").width / 4) * 3
+    },
     keyboard: {
         flexDirection: 'row',
         flexWrap: 'wrap'

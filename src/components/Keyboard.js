@@ -5,7 +5,7 @@ import styles from "../styles"
 export default props => {
     return (
         <View style={styles.keyboard}>
-            <CalculatorButton label='AC' />
+            <CalculatorButton label='AC' triple='true'/>
             <CalculatorButton label='/' />
             <CalculatorButton label='7' />
             <CalculatorButton label='8' />
@@ -19,7 +19,7 @@ export default props => {
             <CalculatorButton label='2' />
             <CalculatorButton label='3' />
             <CalculatorButton label='+' />
-            <CalculatorButton label='0' />
+            <CalculatorButton label='0' double='true'/>
             <CalculatorButton label='.' />
             <CalculatorButton label='=' />
         </View>
