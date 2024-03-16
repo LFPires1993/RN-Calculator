@@ -1,25 +1,11 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { SafeAreaView } from 'react-native';
+import styles from './src/styles';
+import Keyboard from './src/components/Keyboard';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <StatusBar style="auto" />
-      <Text style={styles.txt}>
-        Welcome to Lucas Pires Calculator
-      </Text>
-    </View>
+    <SafeAreaView style={styles.app}>
+      <Keyboard/>
+    </SafeAreaView>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  txt: {
-    fontSize: 25
-  }
-});
