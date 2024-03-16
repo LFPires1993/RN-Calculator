@@ -6,6 +6,7 @@ export default props => {
 
     if (props.double) buttonStyles.push(Styles.doubleButton)
     if (props.triple) buttonStyles.push(Styles.tripleButton)
+    if (props.operation) buttonStyles.push(Styles.operationButton)
 
     return (
         <TouchableHighlight onPress={props.onClick}>

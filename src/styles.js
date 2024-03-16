@@ -7,7 +7,7 @@ export default StyleSheet.create({
     calculatorButton: {
         height: Dimensions.get("window").width / 4,
         width: Dimensions.get("window").width / 4,
-        fontSize: 20,
+        fontSize: 30,
         padding: 20,
         backgroundColor: '#f0f0f0',
         borderColor: '#888',
@@ -16,7 +16,7 @@ export default StyleSheet.create({
     },
     operationButton: {
         color: '#fff',
-        backgroundColor: '@fa8321'
+        backgroundColor: '#fa8321'
     },
     doubleButton: {
         width: (Dimensions.get("window").width / 4) * 2
